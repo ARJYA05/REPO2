@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+/* Neon Light Effect on Text */
+h1 {
+    font-size: 2rem;
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+}
+
+/* Glow Effect and Hover Color Change on Button */
+button {
+    background-color: #ff00ff;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 0 0 5px white;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #00ff00;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+/* Login Page Background */
+.login-bg {
+    background: url('assets/gaming-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    background-image: url(Untitled-design-1.jpg);
+}
+
+/* About Me Background */
+.about-bg {
+    background: url('assets/about-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    background-image: ;
+}
+
+/* Feedback Page Background */
+.feedback-bg {
+    background: url('assets/feedback-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* Thank You Page Background */
+.thankyou-bg {
+    background: url('assets/thankyou-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    background-image: url(th.jpeg);
+}
+
+/* Containers */
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background: #ff4757;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Textarea */
+textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border: none;
+}
+
+.feedback-bg {
+    background-image: url(background-music-for-gaming-videos-756x504.jpg);
+}
+
+.about-bg {
+    background-image:url(c17cfedf16a5bc895adfdfde0f9f683d.jpg);
+}
+/* Neon Light Effect on Text */
+h1 {
+    font-size: 2rem;
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+}
+
+/* Glow Effect and Hover Color Change on Button */
+button {
+    background-color: #ff00ff;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 0 0 5px white;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #00ff00;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
